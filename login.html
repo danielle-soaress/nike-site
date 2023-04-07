@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="assets/css/styleLogin.css"/>
+        <script src="https://kit.fontawesome.com/38a1461731.js" crossorigin="anonymous"></script>
+        <title>Nike - Join the Club</title>
+    </head>
+    <body>
+        <section id="join_the_club" class="center">
+           <div class="login_box center">
+            <div class="title_div center">
+                <img class="nike_logo" src="assets/images/nikeblacklogo.png" alt="">
+                <h1 class="title">Your Account for Everything of Nike</h1>
+            </div>
+            <div class="login_signup">
+                <div class="options_div"> 
+                    <div class="option_button option_button_right center" onclick="clicou()">Register</div>
+                </div>
+            </div>
+            <div class="login_or_signup">
+                <div class="login_page center">
+                    <form>
+                        <div class="inputs_divs">
+                            <i class="fa-solid fa-user"></i>
+                            <input class="inputs_text" type="text" placeholder="Email"/>
+                        </div>
+                        <div class="inputs_divs">
+                            <i class="fa-solid fa-lock"></i>
+                            <input class="inputs_text" type="password" placeholder="Password"/>
+                        </div>
+                        <div class="login_conditions">
+                            <div class="center">
+                                <input checked="checked" type="checkbox" class="agree_checkbox">
+                                <p>Keep me conected</p>
+                            </div>
+                            <div>
+                                <a class="forgotten_password">I forgot my password</a>
+                            </div>
+                        </div>
+                        <div class="submit_button_div">
+                            <input class="submit_button" type="submit" value="Log in"/>
+                        </div>
+                    </form>
+                </div>
+                <div class="signup_page center right">
+                    <form>
+                        <div class="inputs_divs">
+                            <i class="fa-solid fa-user"></i>
+                            <input class="inputs_text" type="text" placeholder="Email"/>
+                        </div>
+                        <div class="inputs_divs" id="input_tel">
+                            <i class="fa-solid fa-phone"></i>
+                            <input class="inputs_text" type="tel" placeholder="Phone number"/>
+                        </div>
+                        <div class="inputs_divs" id="input_pass">
+                            <i class="fa-solid fa-lock"></i>
+                            <input class="inputs_text" type="password" placeholder="Password"/>
+                        </div>
+                        <div class="inputs_divs" id="input_pass">
+                            <i class="fa-solid fa-lock"></i>
+                            <input class="inputs_text" type="password" placeholder="Confirm your password"/>
+                        </div>
+                        <div class="submit_button_div">
+                            <input class="submit_button" type="submit" value="Register"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+           </div>
+        </section>
+        <script src="assets/js/loginSignup.js"></script>
+        <script src="assets/js/formsverifications.js"></script>
+    </body>
+</html>
